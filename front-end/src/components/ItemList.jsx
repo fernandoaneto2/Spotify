@@ -28,7 +28,6 @@ const ItemList = ({ title, items, itemsArray, path, idPath }) => {
           .filter((currentValue, index) => index < finalItems)
           .map((currObj, index) => (
             <SingleItem
-              
               {...currObj}
               idPath={idPath}
               key={`${title}-${index}`}

@@ -1,4 +1,3 @@
-
 import { MongoClient } from "mongodb";
 
 const URI =
